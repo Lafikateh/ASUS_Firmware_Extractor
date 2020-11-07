@@ -19,7 +19,7 @@ string* create_string(const char* text);
 
 // Free an string
 // Returns true on success, or false on failure
-bool free_string(const string* istniejacy_string);
+bool free_string(string* string_handle);
 
 // Replace an source string with the replacement string
 // Returns string* on success, or NULL on failure
