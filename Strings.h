@@ -31,4 +31,4 @@ string* replace_string_c(string* string_handle, char* source_string, char* repla
 
 // Replace an source string with the replacement string
 // Returns const char* on success, or NULL on failure
-const char* c_replace_string_c(char* string_handle, char* source_string, char* replacement_string);
+char* c_replace_string_c(char* string_handle, char* source_string, char* replacement_string);
