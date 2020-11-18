@@ -15,7 +15,7 @@
 int main(int argument_count, char* argument_list[])
 {
 	// Print program header
-	printf("ASUS UEFI Firmware Extractor v1.0.0\n");
+	printf("ASUS UEFI Firmware Extractor v1.0.1\n");
 
 	if (argument_count == 1)
 	{
