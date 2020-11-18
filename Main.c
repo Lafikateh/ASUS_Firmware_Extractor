@@ -15,12 +15,12 @@
 int main(int argument_count, char* argument_list[])
 {
 	// Print program header
-	puts("ASUS UEFI Firmware Extractor v1.0.0");
+	printf("ASUS UEFI Firmware Extractor v1.0.0\n");
 
 	if (argument_count == 1)
 	{
 		// Print usage
-		puts("Usage: input_file [output_file]");
+		printf("Usage: input_file [output_file]\n");
 
 		// Report success
 		return 0;
@@ -90,7 +90,7 @@ int main(int argument_count, char* argument_list[])
 		else
 		{
 			// Print error
-			puts("Input file does not exist!");
+			printf("Input file does not exist!\n");
 
 			// Return failure
 			return 1;
@@ -99,7 +99,7 @@ int main(int argument_count, char* argument_list[])
 	else if (argument_count > 3)
 	{
 		// Print error
-		puts("Too many arguments provided!");
+		printf("Too many arguments provided!\n");
 
 		// Return failure
 		return 1;
